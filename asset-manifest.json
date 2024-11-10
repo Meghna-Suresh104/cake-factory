@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cake-factory/static/css/main.235f40c7.css",
+    "main.js": "/cake-factory/static/js/main.fb20a035.js",
+    "static/js/453.f18522a7.chunk.js": "/cake-factory/static/js/453.f18522a7.chunk.js",
+    "index.html": "/cake-factory/index.html",
+    "main.235f40c7.css.map": "/cake-factory/static/css/main.235f40c7.css.map",
+    "main.fb20a035.js.map": "/cake-factory/static/js/main.fb20a035.js.map",
+    "453.f18522a7.chunk.js.map": "/cake-factory/static/js/453.f18522a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.235f40c7.css",
+    "static/js/main.fb20a035.js"
+  ]
+}
