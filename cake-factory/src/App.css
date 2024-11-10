@@ -1,0 +1,142 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+}
+
+header {
+  background-color: #a66b87;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2f2121;
+  font-weight: bold;
+}
+
+
+.cake-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.cake-card {
+  background: rgb(229, 215, 224);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 15px;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.cake-card:hover {
+  transform: scale(1.05);
+}
+
+.cake-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cart {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #3c2c0c;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+#about, #contact, #testimonials {
+  padding: 20px;
+  background-color: #eee2e9; 
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(15, 14, 14, 0.1);
+}
+
+#about h2, #contact h2, #testimonials h2 {
+  text-align: center;
+  color: #100f0f; 
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact input, #contact textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ece9e9;
+  border-radius: 5px;
+}
+
+#contact button {
+  padding: 10px 20px;
+  background-color: #70e9b4; 
+  color: rgb(248, 245, 247);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #6c533b; 
+}
+
+.testimonial {
+  margin: 15px 0;
+  padding: 10px;
+  border-left: 4px solid #503624; 
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
+.testimonial span {
+  display: block;
+  text-align: right;
+  color: #555; 
+}
+
+@media (max-width: 600px) {
+  .cake-card {
+      width: 90%;
+  }
+}
